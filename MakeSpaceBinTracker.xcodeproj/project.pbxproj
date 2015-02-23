@@ -17,7 +17,6 @@
 		446097A21A9BC48F00C6C936 /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 446097A11A9BC48F00C6C936 /* CoreDataManager.m */; };
 		446097A51A9BC58200C6C936 /* MakeSpaceBin.m in Sources */ = {isa = PBXBuildFile; fileRef = 446097A41A9BC58200C6C936 /* MakeSpaceBin.m */; };
 		446097A81A9BC5A700C6C936 /* MakeSpaceBin+Operations.m in Sources */ = {isa = PBXBuildFile; fileRef = 446097A71A9BC5A700C6C936 /* MakeSpaceBin+Operations.m */; };
-		446097AB1A9BC80300C6C936 /* MakeSpaceBinTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 446097AA1A9BC80300C6C936 /* MakeSpaceBinTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +48,6 @@
 		446097A41A9BC58200C6C936 /* MakeSpaceBin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MakeSpaceBin.m; sourceTree = "<group>"; };
 		446097A61A9BC5A700C6C936 /* MakeSpaceBin+Operations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MakeSpaceBin+Operations.h"; sourceTree = "<group>"; };
 		446097A71A9BC5A700C6C936 /* MakeSpaceBin+Operations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MakeSpaceBin+Operations.m"; sourceTree = "<group>"; };
-		446097A91A9BC80300C6C936 /* MakeSpaceBinTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MakeSpaceBinTableViewController.h; sourceTree = "<group>"; };
-		446097AA1A9BC80300C6C936 /* MakeSpaceBinTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MakeSpaceBinTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +102,6 @@
 				446097A41A9BC58200C6C936 /* MakeSpaceBin.m */,
 				446097A61A9BC5A700C6C936 /* MakeSpaceBin+Operations.h */,
 				446097A71A9BC5A700C6C936 /* MakeSpaceBin+Operations.m */,
-				446097A91A9BC80300C6C936 /* MakeSpaceBinTableViewController.h */,
-				446097AA1A9BC80300C6C936 /* MakeSpaceBinTableViewController.m */,
 			);
 			path = MakeSpaceBinTracker;
 			sourceTree = "<group>";
@@ -238,7 +233,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4460979F1A9BC3DC00C6C936 /* DataModel.xcdatamodeld in Sources */,
-				446097AB1A9BC80300C6C936 /* MakeSpaceBinTableViewController.m in Sources */,
 				446097A21A9BC48F00C6C936 /* CoreDataManager.m in Sources */,
 				446097A81A9BC5A700C6C936 /* MakeSpaceBin+Operations.m in Sources */,
 				4460977D1A9BC3BD00C6C936 /* AppDelegate.m in Sources */,
