@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		4460977A1A9BC3BD00C6C936 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 446097791A9BC3BD00C6C936 /* main.m */; };
 		4460977D1A9BC3BD00C6C936 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4460977C1A9BC3BD00C6C936 /* AppDelegate.m */; };
-		446097801A9BC3BD00C6C936 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4460977F1A9BC3BD00C6C936 /* ViewController.m */; };
 		446097831A9BC3BD00C6C936 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 446097811A9BC3BD00C6C936 /* Main.storyboard */; };
 		446097851A9BC3BD00C6C936 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 446097841A9BC3BD00C6C936 /* Images.xcassets */; };
 		446097881A9BC3BD00C6C936 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 446097861A9BC3BD00C6C936 /* LaunchScreen.xib */; };
 		446097941A9BC3BD00C6C936 /* MakeSpaceBinTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 446097931A9BC3BD00C6C936 /* MakeSpaceBinTrackerTests.m */; };
+		4460979F1A9BC3DC00C6C936 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4460979D1A9BC3DC00C6C936 /* DataModel.xcdatamodeld */; };
+		446097A21A9BC48F00C6C936 /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 446097A11A9BC48F00C6C936 /* CoreDataManager.m */; };
+		446097A51A9BC58200C6C936 /* MakeSpaceBin.m in Sources */ = {isa = PBXBuildFile; fileRef = 446097A41A9BC58200C6C936 /* MakeSpaceBin.m */; };
+		446097A81A9BC5A700C6C936 /* MakeSpaceBin+Operations.m in Sources */ = {isa = PBXBuildFile; fileRef = 446097A71A9BC5A700C6C936 /* MakeSpaceBin+Operations.m */; };
+		446097AB1A9BC80300C6C936 /* MakeSpaceBinTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 446097AA1A9BC80300C6C936 /* MakeSpaceBinTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +36,21 @@
 		446097791A9BC3BD00C6C936 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4460977B1A9BC3BD00C6C936 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4460977C1A9BC3BD00C6C936 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4460977E1A9BC3BD00C6C936 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4460977F1A9BC3BD00C6C936 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		446097821A9BC3BD00C6C936 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		446097841A9BC3BD00C6C936 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		446097871A9BC3BD00C6C936 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4460978D1A9BC3BD00C6C936 /* MakeSpaceBinTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MakeSpaceBinTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		446097921A9BC3BD00C6C936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		446097931A9BC3BD00C6C936 /* MakeSpaceBinTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MakeSpaceBinTrackerTests.m; sourceTree = "<group>"; };
+		4460979E1A9BC3DC00C6C936 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		446097A01A9BC48F00C6C936 /* CoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataManager.h; sourceTree = "<group>"; };
+		446097A11A9BC48F00C6C936 /* CoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataManager.m; sourceTree = "<group>"; };
+		446097A31A9BC58200C6C936 /* MakeSpaceBin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MakeSpaceBin.h; sourceTree = "<group>"; };
+		446097A41A9BC58200C6C936 /* MakeSpaceBin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MakeSpaceBin.m; sourceTree = "<group>"; };
+		446097A61A9BC5A700C6C936 /* MakeSpaceBin+Operations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MakeSpaceBin+Operations.h"; sourceTree = "<group>"; };
+		446097A71A9BC5A700C6C936 /* MakeSpaceBin+Operations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MakeSpaceBin+Operations.m"; sourceTree = "<group>"; };
+		446097A91A9BC80300C6C936 /* MakeSpaceBinTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MakeSpaceBinTableViewController.h; sourceTree = "<group>"; };
+		446097AA1A9BC80300C6C936 /* MakeSpaceBinTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MakeSpaceBinTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +94,19 @@
 			children = (
 				4460977B1A9BC3BD00C6C936 /* AppDelegate.h */,
 				4460977C1A9BC3BD00C6C936 /* AppDelegate.m */,
-				4460977E1A9BC3BD00C6C936 /* ViewController.h */,
-				4460977F1A9BC3BD00C6C936 /* ViewController.m */,
 				446097811A9BC3BD00C6C936 /* Main.storyboard */,
 				446097841A9BC3BD00C6C936 /* Images.xcassets */,
 				446097861A9BC3BD00C6C936 /* LaunchScreen.xib */,
 				446097771A9BC3BD00C6C936 /* Supporting Files */,
+				4460979D1A9BC3DC00C6C936 /* DataModel.xcdatamodeld */,
+				446097A01A9BC48F00C6C936 /* CoreDataManager.h */,
+				446097A11A9BC48F00C6C936 /* CoreDataManager.m */,
+				446097A31A9BC58200C6C936 /* MakeSpaceBin.h */,
+				446097A41A9BC58200C6C936 /* MakeSpaceBin.m */,
+				446097A61A9BC5A700C6C936 /* MakeSpaceBin+Operations.h */,
+				446097A71A9BC5A700C6C936 /* MakeSpaceBin+Operations.m */,
+				446097A91A9BC80300C6C936 /* MakeSpaceBinTableViewController.h */,
+				446097AA1A9BC80300C6C936 /* MakeSpaceBinTableViewController.m */,
 			);
 			path = MakeSpaceBinTracker;
 			sourceTree = "<group>";
@@ -219,8 +237,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				446097801A9BC3BD00C6C936 /* ViewController.m in Sources */,
+				4460979F1A9BC3DC00C6C936 /* DataModel.xcdatamodeld in Sources */,
+				446097AB1A9BC80300C6C936 /* MakeSpaceBinTableViewController.m in Sources */,
+				446097A21A9BC48F00C6C936 /* CoreDataManager.m in Sources */,
+				446097A81A9BC5A700C6C936 /* MakeSpaceBin+Operations.m in Sources */,
 				4460977D1A9BC3BD00C6C936 /* AppDelegate.m in Sources */,
+				446097A51A9BC58200C6C936 /* MakeSpaceBin.m in Sources */,
 				4460977A1A9BC3BD00C6C936 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +444,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4460979D1A9BC3DC00C6C936 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4460979E1A9BC3DC00C6C936 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = 4460979E1A9BC3DC00C6C936 /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 4460976C1A9BC3BD00C6C936 /* Project object */;
 }

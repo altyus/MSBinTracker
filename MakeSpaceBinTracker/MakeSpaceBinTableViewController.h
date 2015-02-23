@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MakeSpaceBinTableViewController.h
 //  MakeSpaceBinTracker
 //
 //  Created by AL TYUS on 2/23/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MakeSpaceBinTableViewController : UITableViewController
 
 @end
-
