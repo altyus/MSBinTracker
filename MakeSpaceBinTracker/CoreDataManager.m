@@ -56,7 +56,7 @@
 
 - (NSPersistentStoreCoordinator *)persistentStoreCoordinator
 {
-    if (!_persistentStoreCoordinator)
+    if (!!_persistentStoreCoordinator)
     {
         NSURL *storeURL = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:@"DataModel.sqlite"];
         NSError *error = nil;
@@ -86,9 +86,9 @@
     
     if ([bins count] == 0) {
         for (NSInteger x = 0; x < 100; x++) {
-            MakeSpaceBin *bin = [[MakeSpaceBin alloc] initWithName:[NSString stringWithFormat:@"b12%d", x]
-                                                             binId:[NSString stringWithFormat:@"b12%d", x]
-                                                       createdDate:[NSDate date]
+            MakeSpaceBin *bin = [[MakeSpaceBin alloc] initWithName:[NSString stringWithFormat:@"b12%ld", (long)x]
+                                                             binId:[NSString stringWithFormat:@"b12%ld", (long)x]
+                                                       createdDate:[NSDate dateWithTimeIntervalSinceNow:x * 200] 
                                                            context:self.managedObjectContext];
             NSLog(@"%@", bin);
         }
